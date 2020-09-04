@@ -21,7 +21,7 @@ public class Client {
     public static void main( String[] args ) throws IOException {
         BufferedReader in = null;
         
-        URL herokuApp = new URL("https://still-hamlet-80792.herokuapp.com/results?numbers=tan-1");
+        URL herokuApp = new URL("https://shrouded-crag-36581.herokuapp.com/results?numbers=tan-1");
         
         URLConnection con = herokuApp.openConnection();
         

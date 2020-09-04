@@ -77,11 +77,11 @@ Para ejecutar el cliente localmente use:
 
 La aplicación desplegada en la nube se encuentra en: 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](...)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://shrouded-crag-36581.herokuapp.com/)
 
 # Descripción del Diseño
 
-
+El cliente que se ejecuta en la consola hace un llamado con los valores quemados a https://shrouded-crag-36581.herokuapp.com, y esta luego hace una solicitud HTTP a https://still-hamlet-80792.herokuapp.com/results?numbers que finalmente resuelve la petición
 
 # Autores
 
